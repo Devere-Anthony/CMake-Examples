@@ -11,9 +11,7 @@ if (CMAKE_BINARY_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
 endif()
 
 # Try to support build Catch2 from source and searching for it on the system
-include(FetchContent)
 Include(FetchContent)
-
 FetchContent_Declare(
   Catch2
   GIT_REPOSITORY https://github.com/catchorg/Catch2.git
